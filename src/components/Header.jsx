@@ -1,6 +1,9 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, NavbarBrand } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Searchbar from './Searchbar';
+
+
 
 const Header = () =>
   <header>
@@ -20,10 +23,7 @@ const Header = () =>
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </NavDropdown>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-success">Search</Button>
-        </Form>
+        <Searchbar />
       </Navbar.Collapse>
     </Navbar>
   </header>

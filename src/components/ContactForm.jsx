@@ -15,7 +15,8 @@ class ContactForm extends Component {
 
   handleFormSubmit = (event) => {
     event.preventDefault();
-    alert(this.state.message)
+    window.confirm(`Confirmer l'envoie du formulaire ?`);
+    console.log(this.state);
   }
 
   render = () => {
