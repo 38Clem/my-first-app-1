@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () =>
   <header>
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">Mon beau blog</Navbar.Brand>
+      <Navbar.Brand href="">Kame Ricano</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
